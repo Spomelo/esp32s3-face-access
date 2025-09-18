@@ -1,0 +1,25 @@
+# ESP-IDF / C / General
+build/
+managed_components/
+components/
+cmake-build*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+sdkconfig
+sdkconfig.old
+sdkconfig.ci
+*.map
+*.bin
+*.elf
+*.log
+*.pyc
+__pycache__/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+.env
+*.bak

@@ -1,0 +1,26 @@
+idf_component_register(
+    SRCS
+        "app_main.c"
+        "wifi.c"
+        "mqtt.c"
+        "camera_task.c"
+        "display.c"
+        "mpu6050.c"
+        "door.c"
+        "utils.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        esp_wifi
+        esp_timer
+        nvs_flash
+        esp_event
+        esp_netif
+        esp_system
+        driver
+        esp_lcd
+        esp_pm
+        esp_mqtt
+        esp32-camera
+        esp-who
+        mbedtls
+)
